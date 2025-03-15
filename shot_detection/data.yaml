@@ -1,0 +1,28 @@
+path: keypoints_data
+train: images/train
+val: images/val
+test:
+
+# Keypoints
+kpt_shape: [14, 3]
+
+nc: 17
+
+names: 
+    0: Bandeja_backhand
+    1: Bandeja_forehand
+    2: Chiquita_backhand
+    3: Chiquita_forehand
+    4: ContPared_forehand
+    5: Dropshot_backhand
+    6: Dropshot_forehand
+    7: Gstroke_backhand
+    8: Gstroke_forehand
+    9: Lobb_backhand
+    10: Lobb_forehand
+    11: Serve_forehand
+    12: Smach
+    13: Vibora_forehand
+    14: Volley_backhand
+    15: Volley_forehand
+    16: Willie
